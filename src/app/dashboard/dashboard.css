@@ -1,0 +1,19 @@
+.stats {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+gap: 20px;
+
+}
+.stat {
+display: flex;
+flex-direction: column;
+gap: 14px;
+padding: 22px 24px;
+background: #fff;
+border: 1px solid #e6e8ee;
+border-left: 4px solid;
+border-radius: 16px;
+box-shadow: 1px 3px rgba(16, 24, 40, 0.06);
+}
+.stat-label {font-size: 14px; color: #5b6272; }
+.stat-value {font-size: 36px; font-weight: 700; color: #1f2430; }
